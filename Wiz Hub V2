@@ -11,7 +11,7 @@ local Nae = game.Players.LocalPlayer.Name
 spawn(function()
    game:GetService("RunService").RenderStepped:Connect(function()
     pcall(function()
-game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "Wiz Hub"
+game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "nIGGER"
 
         
     end)
