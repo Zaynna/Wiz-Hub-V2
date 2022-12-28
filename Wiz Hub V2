@@ -1,3 +1,4 @@
+
 local Access = {"Ja_ev2", "User of wl"}
 if not table.find(Access, game:GetService("Players").LocalPlayer.Name) then 
 game:GetService("Players").LocalPlayer:Kick("Access not granted")
@@ -8,7 +9,6 @@ local Window = Library.CreateLib("Wiz Hub", "Ocean")
 local Tab = Window:NewTab("Auto farm")
 local Section = Tab:NewSection("Auto farm")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Zaynna/Wiz-Hub/main/Wiz%20Hub",true))();
 game:GetService("Workspace").Enemies.SetInstances:Destroy()
 
 HWID = game:GetService("RbxAnalyticsService"):GetClientId()
